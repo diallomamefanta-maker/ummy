@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo 'hello Moussa'
-      - run: $HOSTNAME
+      - run: echo $HOSTNAME
